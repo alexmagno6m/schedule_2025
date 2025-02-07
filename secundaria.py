@@ -55,7 +55,7 @@ app.layout = html.Div([
     html.Div(
         ["Las franjas A: 6.30-12.30 y B: 8:20 - 2:20",
          html.Br(),
-         "Fueron asignadas por los directivos"]
+         "Fueron asignadas por rectoria"]
     ),
     dash_table.DataTable(
         data=df.to_dict('records'),
@@ -117,7 +117,7 @@ app.layout = html.Div([
 
     ),
     html.Div([
-        html.H3('Powered by BitSmart | Alexander Acevedo (2016-2024)')
+        html.H3('Powered by Dash - Created by BitSmart  | Alexander Acevedo (2016-2025)')
     ])
 
 ])
